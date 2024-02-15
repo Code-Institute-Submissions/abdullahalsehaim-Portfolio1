@@ -11,7 +11,10 @@
 
 /* General Styles */
 body {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    color: #ffffff;
     font-family: 'Playfair Display SC', sans-serif;
 }
 
@@ -24,7 +27,7 @@ h1, h2, h3 {
 /* Header */
 
 header {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25);
     /*Black background with 50% opactity so text can contrast background image*/
     padding: 0 1rem;
     position: fixed;
@@ -36,6 +39,11 @@ header {
     align-items: baseline;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -44,4 +52,40 @@ header {
 
 #menu > li {
     margin-bottom: 1em;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/*Main Element*/
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background: url("../images/home_bg.jpg") no-repeat center center/cover;
+    position: relative;
+    image-rendering: auto;
+}
+
+/*Media Query for tablets and screens 768px and up*/
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 }
