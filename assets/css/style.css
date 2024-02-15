@@ -67,7 +67,7 @@ nav {
 /*Main Element*/
 main {
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 0;
 }
 
 .home {
@@ -76,6 +76,12 @@ main {
     background: url("../images/home_bg.jpg") no-repeat center center/cover;
     position: relative;
     image-rendering: auto;
+    margin-top: 0;
+}
+
+.home div {
+    position: absolute;
+    margin-top: 300px;
 }
 
 /*Media Query for tablets and screens 768px and up*/
