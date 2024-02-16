@@ -84,6 +84,11 @@ main {
     margin-top: 300px;
 }
 
+/*Styling timeline page*/
+.timeline {
+    background: ;
+}
+
 /*Creating the vertical line in the middle of the timeline*/
 .line {
     position: relative;
