@@ -52,6 +52,7 @@ header a {
 
 #menu > li {
     margin-bottom: 1em;
+    display: inline-block;
 }
 
 nav {
@@ -163,7 +164,8 @@ main {
 
 /*Media Query for tablets and screens 768px and up*/
 @media screen and (min-width: 768px) {
-
+    
+    /* Header element */
     nav {
         display: block;
         position: relative;
