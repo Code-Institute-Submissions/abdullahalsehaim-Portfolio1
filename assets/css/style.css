@@ -211,6 +211,17 @@ main {
     font-size: 16px;
     padding: ;
 }
+
+/* Styling for Google Map at the bottom */
+#map-wrapper {
+    height: 300px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
 /*Media Query for tablets and screens 768px and up*/
 @media screen and (min-width: 768px) {
     
