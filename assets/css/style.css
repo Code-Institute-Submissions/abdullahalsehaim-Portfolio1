@@ -36,11 +36,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    height: 60px;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+    display: inline;
 }
 
 #menu {
@@ -81,7 +83,18 @@ main {
 
 #home div {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 200px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+#home h1 {
+    font-size: 500%;
+}
+
+#home p {
+    width: 80%;
+    padding-left: 10%;
 }
 
 /*Styling timeline page*/
@@ -164,6 +177,7 @@ main {
 /* Styling for the events page*/
 #events {
     background: url("../images/events_bg.jpg") no-repeat center center/cover;
+    height: auto;
 }
 
 /* Using column and row styling to display events side by side*/
@@ -220,6 +234,10 @@ main {
     height: 100%;
     width: 100%;
     border: none;
+}
+
+#information {
+    background: url("../images/information_bg.jpg") no-repeat center center/cover;
 }
 /*Media Query for tablets and screens 768px and up*/
 @media screen and (min-width: 768px) {
