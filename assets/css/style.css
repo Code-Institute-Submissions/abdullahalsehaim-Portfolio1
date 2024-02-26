@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 /* General Styles */
 body {
     min-height: 100vh;
@@ -164,7 +163,7 @@ main {
 
 /* Styling for the events page*/
 #events {
-
+    background: url("../images/events_bg.jpg") no-repeat center center/cover;
 }
 
 /* Using column and row styling to display events side by side*/
@@ -209,7 +208,7 @@ main {
 .text {
     color: #ffffff;
     font-size: 16px;
-    padding: ;
+    padding: 0;
 }
 
 /* Styling for Google Map at the bottom */
