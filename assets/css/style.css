@@ -175,6 +175,15 @@ main {
     width: 100%;
 }
 
+/* Vertically aligning content containers so they appear side by side */
+.meath_timeline div,
+.castle_timeline div,
+.priory_timeline div,
+.steeple_timeline div {
+    vertical-align: middle;
+} 
+
+
 /* Styling for the events page*/
 #events {
     background: url("../images/events_bg.jpg") no-repeat center center/cover;
