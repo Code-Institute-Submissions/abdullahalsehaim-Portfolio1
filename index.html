@@ -23,7 +23,7 @@
         <ul id="menu">
             <li><a href="#home" aria-label="Go to the home page">Home</a></li>
             <li><a href="#timeline" aria-label="Go to the timeline section">Timeline</a></li>
-            <li><a href="#visitor_information" aria-label="Go to the visitor information section">Information</a></li>
+            <li><a href="#information" aria-label="Go to the visitor information section">Information</a></li>
             <li><a href="#events" aria-label="Go to the events section">Events</a></li>
             <li><a href="#contact" aria-label="Go to the contact section">Contact</a></li>
         </ul>
@@ -223,7 +223,21 @@
 
     <!--Creating contact section-->
     <section id="contact">
-      
+      <fieldset>
+        <legend>Get in touch!</legend>
+        <div>
+          <label for="name-field">Name</label>
+          <input id="name-field" name="full_name" placeholder="Your name" type="text" required>
+        </div>
+        <div>
+          <label for="email-field">Name</label>
+          <input id="email-field" name="email" placeholder="Your email" type="email" required>
+        </div>
+        <div>
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" cols="70" rows="5" required placeholder="Type your message here"></textarea>
+        </div>
+      </fieldset>
     </section>
   </main>
   <section id="map-wrapper">
