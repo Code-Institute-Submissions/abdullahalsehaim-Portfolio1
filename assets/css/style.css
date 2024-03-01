@@ -161,9 +161,10 @@ main {
 }
 
 /* Fix the circle for containers on the right side */
+/*
 .right::after {
     left: -16px;
-}
+} */
 
 /* Styling for the content on the timeline */
 .content {
@@ -176,10 +177,10 @@ main {
 }
 
 /* Vertically aligning content containers so they appear side by side */
-.meath_timeline div,
-.castle_timeline div,
-.priory_timeline div,
-.steeple_timeline div {
+.meath_timeline .container,
+.castle_timeline .container,
+.priory_timeline .container,
+.steeple_timeline .container{
     vertical-align: middle;
 } 
 
