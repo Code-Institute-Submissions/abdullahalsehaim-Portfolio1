@@ -105,7 +105,7 @@ main {
 /*Creating the vertical line in the middle of the timeline*/
 .line {
     position: relative;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -114,8 +114,8 @@ main {
     position: absolute;
     width: 6px;
     background-color: white;
-    top: 0;
-    bottom: 0;
+    top: 15%;
+    bottom: 15%;
     left: 50%;
     margin-left: -3px;
 }
@@ -125,7 +125,7 @@ main {
     padding: 10px 40px;
     position: relative;
     background: rgba(0, 0, 0, 0.25);
-    width: 45%;
+    width: 50%;
     height: 300px;
 }
 
@@ -159,6 +159,11 @@ main {
 .right {
     left: 50%;
 }
+/*
+.left, .right {
+    display: flex;
+    flex-direction: column;
+}*/
 
 /* Fix the circle for containers on the right side */
 /*
@@ -176,13 +181,13 @@ main {
     width: 100%;
 }
 
-/* Vertically aligning content containers so they appear side by side */
+/* Vertically aligning content containers so they appear side by side*/ 
 .meath_timeline,
 .castle_timeline,
 .priory_timeline,
 .steeple_timeline{
-    display: flex;
-    flex-direction: column;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr
 } 
 
 
