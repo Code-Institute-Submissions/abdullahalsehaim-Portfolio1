@@ -285,6 +285,17 @@ main {
     height: 600px;
 }
 
+#information > ul {
+    list-style-type: none;
+    display: inline-block;
+}
+/* Styling for contact section */
+
+#contact {
+    background:("../images/contact_bg.jpg") no-repeat center center/cover ;
+    height: 600px;
+}
+
 /* Media Query for phones and screens 576px and up */
 @media screen and (min-width: 576px) {
     #events {
