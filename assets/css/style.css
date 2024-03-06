@@ -73,7 +73,18 @@ nav {
     display: none;
     top: 100%;
     line-height: 30px;
+    height: 35px;
 }
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 /* Nav Toggle*/
 #nav-toggle:checked~nav {
     display: block;
@@ -89,6 +100,15 @@ nav {
 
 nav ul {
     float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 /*Main Element*/
@@ -292,7 +312,7 @@ main {
 /* Styling for contact section */
 
 #contact {
-    background:("../images/contact_bg.jpg") no-repeat center center/cover ;
+    background: url("../images/contact_bg.jpg") no-repeat center center/cover;
     height: 600px;
 }
 
