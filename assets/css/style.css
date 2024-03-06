@@ -316,6 +316,12 @@ main {
     height: 600px;
 }
 
+.contact-wrap {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Media Query for phones and screens 576px and up */
 @media screen and (min-width: 576px) {
     #events {
