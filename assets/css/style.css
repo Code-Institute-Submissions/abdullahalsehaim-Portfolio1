@@ -181,7 +181,7 @@ main {
     display: block;
 }
 
-/*Circles containing the years on the timeline*/
+/*Circles containing the years on the timeline
 .container::after {
     content: '';
     position: absolute;
@@ -193,7 +193,7 @@ main {
     top: 15px;
     border-radius: 50%;
     z-index: 1;
-}
+} */
 
 /* Place the container on the left */
 .left {
@@ -226,14 +226,14 @@ main {
     width: 100%;
 }
 
-/* Vertically aligning content containers so they appear side by side*/ 
+/* Vertically aligning content containers so they appear side by side
 .meath_timeline,
 .castle_timeline,
 .priory_timeline,
 .steeple_timeline{
     display: inline-grid;
     grid-template-columns: 1fr 1fr
-} 
+} */ 
 
 
 /* Styling for the events page*/
