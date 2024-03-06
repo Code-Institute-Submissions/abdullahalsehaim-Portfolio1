@@ -228,7 +228,7 @@
     <!--Creating contact section-->
     <section id="contact">
       <div class="contact-wrap">
-        <div>
+        <div class="contact-box">
           <h2>Contact Details</h2>
           <h2>Telephone Number</h2>
           <p>083 1234567</p>
@@ -237,22 +237,24 @@
           <h2>Address</h2>
           <p>Trim, Co. Meath</p>
         </div>
-      <fieldset>
-        <legend>Get in touch!</legend>
-        <div>
-          <label for="name-field">Name</label>
-          <input id="name-field" name="full_name" placeholder="Your name" type="text" required>
+        <div class="contact-box">
+        <fieldset>
+          <legend>Get in touch!</legend>
+          <div>
+            <label for="name-field">Name</label>
+            <input id="name-field" name="full_name" placeholder="Your name" type="text" required>
+          </div>
+          <div>
+            <label for="email-field">Email</label>
+            <input id="email-field" name="email" placeholder="Your email" type="email" required>
+          </div>
+          <div>
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" cols="70" rows="5" required placeholder="Type your message here"></textarea>
+          </div>
         </div>
-        <div>
-          <label for="email-field">Email</label>
-          <input id="email-field" name="email" placeholder="Your email" type="email" required>
-        </div>
-        <div>
-          <label for="message">Your Message</label>
-          <textarea name="message" id="message" cols="70" rows="5" required placeholder="Type your message here"></textarea>
-        </div>
-      </div>
-      </fieldset>
+        </fieldset>
+    </div>
     </section>
   </main>
 

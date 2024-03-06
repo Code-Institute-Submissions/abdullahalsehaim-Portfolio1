@@ -322,6 +322,19 @@ main {
     flex-wrap: wrap;
 }
 
+.contact-box {
+    padding: 40px 30px;
+}
+
+.contact-box:nth-child(1) {
+    flex: 50%;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.contact-box:nth-child(2) {
+    flex: 50%;
+    background: rgba(0, 0, 0, 0.25);
+}
 /* Media Query for phones and screens 576px and up */
 @media screen and (min-width: 576px) {
     #events {
