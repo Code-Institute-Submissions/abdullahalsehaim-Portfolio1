@@ -198,6 +198,17 @@ main {
     z-index: 1;
 } */
 
+.circle {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: #ffffff;
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+}
+
 /* Place the container on the left */
 .left {
     left: 0;
@@ -246,8 +257,6 @@ main {
     display: flex;
     align-items: center;
 }
-
-
 
 
 /* Styling for the events page*/
