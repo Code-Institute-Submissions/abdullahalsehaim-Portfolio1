@@ -269,6 +269,9 @@ span.circle {
     width: 100%;
 }
 
+#events h2 {
+
+}
 /* Using column and row styling to display events side by side*/
 .row{
     display: flex;
@@ -328,19 +331,29 @@ span.circle {
 }
 
 #information {
-    background: #F5FFFA;
-    height: 600px;
+    background: #4F7942;
+    height: 1000px;
     width: 100%;
 }
 
-.column > ul {
+#information h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#information p {
+    margin-bottom: 50px;
+}
+
+.column ul {
     list-style-type: none;
     float: right;
 }
 
-.column > li {
+.column li {
+    text-align: center;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .card {
     border-radius: 5px;
