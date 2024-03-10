@@ -34,7 +34,7 @@ h1, h2, h3 {
 /* Header */
 
 header {
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.55);
     /*Black background with 25% opactity so text can contrast background image*/
     padding: 0 1rem;
     z-index: 99;
@@ -118,8 +118,8 @@ main {
 }
 
 #home {
-    height: 100vh;
-    width: 100vw;
+    height: 800px;
+    width: 100%;
     background: url("../images/home_bg.jpg") no-repeat center center/cover;
     position: relative;
     image-rendering: auto;
@@ -130,17 +130,18 @@ main {
     position: absolute;
     margin-top: 300px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 #home h2 {
     font-size: 500%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #home p {
-    width: 60%;
-    justify-content: center;
+    font-size: 120%;
+    width: 75%;
+    margin-left: 12.5%;
 }
 
 /*Styling timeline page*/
@@ -210,6 +211,7 @@ span.circle {
     display: inline-block;
     font-weight: bold;
     line-height: 40px;
+    z-index: 2;
 }
 
 /* Place the container on the left */
