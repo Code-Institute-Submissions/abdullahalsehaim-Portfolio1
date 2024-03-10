@@ -273,7 +273,7 @@ span.circle {
 
 }
 /* Using column and row styling to display events side by side*/
-.row{
+.row {
     display: flex;
 }
  
@@ -281,6 +281,8 @@ span.circle {
     flex: 33.33%;
     padding: 5px;
     margin-top: 150px;
+    position: relative;
+    width: 50%;
 }
 
 /* Image and middle class styling to create the image hover overlay effect */
@@ -301,7 +303,7 @@ span.circle {
     left: 0;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
 }
 
 .column:hover .image {
@@ -313,10 +315,10 @@ span.circle {
 }
 
 .text {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: #000000 ;
     color: #ffffff;
     font-size: 16px;
-    padding: 0;
+    padding: 20px;
 }
 
 /* Styling for Google Map at the bottom */
@@ -347,6 +349,10 @@ span.circle {
     margin-bottom: 50px;
     color: #696969;
     font-size: 120%;
+}
+
+#information .column {
+    padding: 10px;
 }
 
 .column ul {
