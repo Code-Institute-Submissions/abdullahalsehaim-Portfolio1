@@ -207,9 +207,9 @@ main {
 
 span.circle {
     border-radius: 50%;
-    width: 34px;
-    height: 34px;
-    padding: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
     background: #ffffff;
     border: 3px solid #000;
     color: #000;
@@ -219,6 +219,7 @@ span.circle {
     line-height: 40px;
     z-index: 2;
 }
+
 
 /* Place the container on the left */
 .left {
