@@ -274,7 +274,14 @@ span.circle {
 }
 
 #events h2 {
+    text-align: center;
+    font-size: 400%;
+    margin-top: 50px;
+}
 
+#events h3 {
+    text-align: center;
+    font-size: 200%;
 }
 /* Using column and row styling to display events side by side*/
 .row {
@@ -345,8 +352,14 @@ span.circle {
 #information h2 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 200%;
+    font-size: 400%;
     padding-top: 50px;
+}
+
+#information h3 {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 50px;
 }
 
 #information p {
