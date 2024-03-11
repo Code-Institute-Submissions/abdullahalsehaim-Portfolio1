@@ -128,6 +128,7 @@ main {
     position: relative;
     image-rendering: auto;
     margin-top: 0;
+    flex-grow: 1;
 }
 
 #home div {
@@ -152,7 +153,8 @@ main {
 #timeline {
     background: url("../images/timeline_bg.jpeg") no-repeat center center/cover;
     width: 100%;
-    height: 1200px;
+    /* height: 1200px; */
+    flex-grow: 1;
 }
 
 /*Creating the vertical line in the middle of the timeline*/
@@ -187,7 +189,7 @@ main {
     max-width: 100%;
     max-height: 100%;
     display: block;
-}
+} 
 
 /*Circles containing the years on the timeline
 .container::after {
@@ -247,6 +249,7 @@ span.circle {
     border-radius: 6px;
     height: 300px;
     width: 100%;
+    flex-grow: 2;
 }
 
 /* Vertically aligning content containers so they appear side by side */
@@ -312,8 +315,8 @@ span.circle {
     transition: 0.5s ease;
     opacity: 0;
     position: absolute;
-    top: -20px;
-    left: 0;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -328,10 +331,10 @@ span.circle {
 }
 
 .text {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #ffffff;
     font-size: 16px;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Styling for Google Map at the bottom */
@@ -400,6 +403,12 @@ span.circle {
     width: 100%;
 }
 
+#contact h2 {
+    text-align: center;
+    font-size: 400%;
+    padding-top: 50px;
+}
+
 .contact-wrap {
     top: 25%;
     width: 75%;
@@ -416,13 +425,13 @@ span.circle {
     height: 400px;
 }
 
-.contact-box h2 {
+.contact-box h3 {
     margin-bottom: 20px;
     color: #f1e4c3;
     text-transform: uppercase;
 }
 
-.contact-box h2,
+.contact-box h3,
 .contact-box p {
     margin-bottom: 20px;
     text-align: center;
@@ -442,11 +451,11 @@ legend {
     text-align: center;
     text-transform: capitalize;
     font-size: 150%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .text-input {
-    width: 60%;
+    width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
 }
