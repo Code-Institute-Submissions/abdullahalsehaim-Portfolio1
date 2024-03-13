@@ -511,7 +511,7 @@ legend {
     }
 
     .circle {
-        visibility: hidden;
+        display: none;
     }
 
     .row {
