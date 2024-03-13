@@ -266,6 +266,7 @@ span.circle {
 }
 
 /* Vertically aligning content containers so they appear side by side */
+/* Copied into a media query 
 .meath_timeline,
 .castle_timeline,
 .priory_timeline,
@@ -281,7 +282,7 @@ span.circle {
     flex: 1;
     display: flex;
     align-items: center;
-}
+} */
 
 
 /* Styling for the events page*/
@@ -550,4 +551,26 @@ legend {
     .nav-toggle-label {
         display: none;
     }
+}
+
+/* Media Query for laptops and monitors 1024 px and larger */
+@media screen and (min-width: 1024px) {
+    /* CSS Rules for timeline to display containers side by side on larger screens */
+    .meath_timeline,
+    .castle_timeline,
+    .priory_timeline,
+    .steeple_timeline {
+        display: flex;
+        align-items: flex-start;
+}
+
+    .meath_timeline .container,
+    .castle_timeline .container,
+    .priory_timeline .container,
+    .steeple_timeline .container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+}
+
 }
