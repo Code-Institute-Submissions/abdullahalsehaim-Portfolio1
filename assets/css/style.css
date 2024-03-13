@@ -287,7 +287,6 @@ span.circle {
 /* Styling for the events page*/
 #events {
     background: #B0C4DE;
-    height: 800px;
     width: 100%;
 }
 
@@ -488,15 +487,46 @@ legend {
     }
 }
 
-/* Media Query to make timeline responsive on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+/* Media Query to make timeline responsive on screens less than 768px wide */
+@media screen and (max-width: 768px) {
+
+    #timeline {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
 /*Containers take up full width of screen */
-.container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .right {
+        left: -10%;
+    }
+
+    .line::after {
+        left: 20px;
+    }
+
+    .circle {
+        visibility: hidden;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        width: 85%;
+        left: 7.5%;
+        position: relative;
+        margin-top: 30px;
+    }
 }
-}
+
 
 /*Media Query for tablets and screens 768px and up*/
 @media screen and (min-width: 768px) {
@@ -517,4 +547,8 @@ legend {
     #menu > li {
         padding-left: 1rem;
     } 
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
