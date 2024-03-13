@@ -32,9 +32,8 @@ This website makes use of beautiful imagery as hero images for the main sections
 
 ### Surface
 
-	To show off the beauty of Trim I decided to make us of several hero images, they are displayed below. I needed to use overlay boxes to contrast the text from the background.
-
-	With regards to fonts used I researched fonts that best compliment nature, from the suggestions online I selected JoseFin Sans and Playfair Display SC
+To show off the beauty of Trim I decided to make us of several hero images, they are displayed below. I needed to use overlay boxes to contrast the text from the background.
+With regards to fonts used I researched fonts that best compliment nature, from the suggestions online I selected JoseFin Sans and Playfair Display SC. For the sections that did not contain hero images as the background. I used light blue and earthy green colors to be consistent with the nature theme.
 
 
 ### Technologies
@@ -46,7 +45,7 @@ This website makes use of beautiful imagery as hero images for the main sections
 ### Features
 
 #### Navigation Bar
-Fixed to the top of the page. Heading of Trim is in the left hand corner of navigation, it includes a      navigation link to the index.html page.
+Fixed to the top of the page. Heading of Trim is in the left hand corner of navigation, it includes a navigation link to the index.html page.
 
 Home, Timeline, Events, Visitor Information and Contact all link to those respective areas of this page.
 
@@ -54,22 +53,22 @@ Navigation bar has a black background with a clearer opacity to contrast the her
 
 #### Home
 
-	Hero image of the Yellow Steeple used as background. 
+Hero image of the Yellow Steeple used as background. 
 
-	A brief introduction of Trim is presented on a flat colour overlay with opacity to contrast the background.
+A brief introduction of Trim is presented on a flat colour overlay with opacity to contrast the background.
 	
 #### Timeline
-	A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
+A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
 
 #### Image Hover Overlay
-	Implementing this feature so as not to overwhelm the user with too much text. This feature allows the user to view the information about the events only when the mouse is hovering over the 
+Implementing this feature so as not to overwhelm the user with too much text. This feature allows the user to view the information about the events only when the mouse is hovering over the 
 
 #### Form
-	Basic form element to allow web users/ historians  to contact me and suggest possible changes and additions to the website. 
+Basic form element to allow web users/ historians  to contact me and suggest possible changes and additions to the website. 
 
 
 #### Map
-	Footer element that has interactive Google Maps with the three main structures highlighted. Fixed to the bottom of the page. 
+Footer element that has interactive Google Maps with the three main structures highlighted. Fixed to the bottom of the page. 
 
 
 
