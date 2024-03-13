@@ -192,7 +192,7 @@ main {
 .container {
     padding: 40px 40px;
     position: relative;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.55);
     width: 50%;
     height: 300px;
 }
@@ -236,12 +236,12 @@ span.circle {
 
 /* Place the container on the left */
 .left {
-    left: 0;
+    left: -10%;
 }
 
 /* Place the container to the right */
 .right {
-    right: 0;
+    right: -10%;
 }
 /*
 .left, .right {
@@ -258,7 +258,6 @@ span.circle {
 /* Styling for the content on the timeline */
 .content {
     padding: 20px 30px;
-    background: rgba(0, 0, 0, 0.25);
     position: relative;
     border-radius: 6px;
     height: 300px;
@@ -319,10 +318,12 @@ span.circle {
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .middle {
