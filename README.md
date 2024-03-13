@@ -1,39 +1,105 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Trim: Discover Ireland's Ancient East
 
-Welcome,
+Trim, located in County Meath, is a town with incredible history and is a great attraction for tourists.
+An opportunity appeared when I looked at its current web presence. Existing sites are either dated, not aesthetically pleasing, contain too much information or are difficult to navigate. In particular I wanted to focus on three of the oldest structures that were still standing in Trim to this day: Trim Castle, The Yellow Steeple and The Priory of St. John the Baptist.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+My aim with this website is to create a modern online presence that grabs the attention of web users, present a brief timeline of these particular structures, inform people how they can best visit these sites and promote events that take place throughout the year.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Table of Contents
 
-## Codeanywhere Reminders
+### Demo
+### UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+### Strategy
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Scope
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Structure
 
-`http_server`
+1. Home page: An introduction about Trim and some of the oldest historic structures in the town
+2. Timeline:  A vertical timeline section that displays the origins of Trim in chronological order.
+3. Events: Three of the largest events that take place to this day within proximity of the structures. 
+4. Information: A brief guide on how visitors can best experience these structures, links to more information and maps.
+5. Form: A contact page where web users can suggest changes to the website to more accurately portray the town.
+6. Map: A display of the town with the three structures highlighted to showcase the proximity.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Skeleton
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+This website makes use of beautiful imagery as hero images for the main sections. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+### Surface
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+	To show off the beauty of Trim I decided to make us of several hero images, they are displayed below. I needed to use overlay boxes to contrast the text from the background.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+	With regards to fonts used I researched fonts that best compliment nature, from the suggestions online I selected JoseFin Sans and Playfair Display SC
 
----
 
-Happy coding!
+### Technologies
+
+1. HTML: To create the structure of the site
+2. CSS: Create a front end experience 
+3. Figma: To plan website structure and elements
+
+### Features
+
+#### Navigation Bar
+Fixed to the top of the page. Heading of Trim is in the left hand corner of navigation, it includes a      navigation link to the index.html page.
+
+Home, Timeline, Events, Visitor Information and Contact all link to those respective areas of this page.
+
+Navigation bar has a black background with a clearer opacity to contrast the hero image backgrounds and the font colour which is white.
+
+#### Home
+
+	Hero image of the Yellow Steeple used as background. 
+
+	A brief introduction of Trim is presented on a flat colour overlay with opacity to contrast the background.
+	
+#### Timeline
+	A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
+
+#### Image Hover Overlay
+	Implementing this feature so as not to overwhelm the user with too much text. This feature allows the user to view the information about the events only when the mouse is hovering over the 
+
+#### Form
+	Basic form element to allow web users/ historians  to contact me and suggest possible changes and additions to the website. 
+
+
+#### Map
+	Footer element that has interactive Google Maps with the three main structures highlighted. Fixed to the bottom of the page. 
+
+
+
+### Testing
+
+Validator Testing
+HTML W3C Validator
+CSS Validator
+Accessibility Lighthouse DevTools (include screenshot)
+
+Bugs
+
+Deployment
+
+Credits
+
+### Content
+The code for the timeline was taken from W3Schools.
+The code for the image overlay effect was taken from W3Schools. 
+The tutorial for how to add multiple locations on Google Maps to HTML was taken from Medium.
+
+### Media
+
+
+### Acknowledgments
+
+A huge thanks to my mentor, Medale Oluwafemi, for his fantastic guidance.
+
+Inspiration of a nature based hero image contrasting with white text Webflow.
+
+Inspiration of the layout of the timeline from this Bohemian Football Club History website
+
+Inspiration for the structure of the page was taken from Code Institute’s Love Running and Coder’s Coffeehouse projects.
