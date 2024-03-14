@@ -169,7 +169,7 @@ main {
     margin-bottom: 50px;
 }
 
-/*Creating the vertical line in the middle of the timeline*/
+/*Creating the vertical line in the middle of the timeline
 .line {
     position: relative;
     max-width: 1000px;
@@ -181,11 +181,12 @@ main {
     position: absolute;
     width: 6px;
     background-color: white;
+    opacity: 0;
     top: 15%;
     bottom: 15%;
     left: 50%;
     margin-left: -3px;
-}
+} */
 
 /*Container for content in the timeline section*/
 .container {
@@ -216,6 +217,7 @@ main {
     z-index: 1;
 } */
 
+/* Moving style to media query 
 span.circle {
     border-radius: 50%;
     width: 100px;
@@ -230,7 +232,7 @@ span.circle {
     z-index: 2;
     margin-top: 100px;
 }
-
+*/
 /* Putting these styles in media query for 1024px screens and above*/
 /* Place the container on the left 
 .left {
@@ -263,6 +265,17 @@ span.circle {
     height: 300px;
     width: 100%;
     flex-grow: 2;
+}
+
+.hidden-heading {
+    font-size: 300%;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+#timeline h4 {
+    text-align: center;
+    font-size: 200%;
 }
 
 /* Vertically aligning content containers so they appear side by side */
@@ -502,12 +515,25 @@ legend {
         padding-right: 25px;
     }
 
-    .right {
+    /*.right {
         left: -10%;
-    }
+    } */
 
+    .line {
+        position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
     .line::after {
-        left: 20px;
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 2.5%;
+        bottom: 23.5%;
+        left: 5%;
+        margin-left: -3px;
     }
 
     .circle {
@@ -526,9 +552,9 @@ legend {
         margin-top: 30px;
     }
 
-    .right, .left {
+    /*.right, .left {
         left: -10%;
-    }
+    } */
 }
 
 
@@ -593,5 +619,20 @@ legend {
     .container {
     width: 50%;
     height: 300px;
+    }
+
+    span.circle {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        background: #C8C8C8;
+        color: #000;
+        text-align: center;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 90px;
+        z-index: 2;
+        margin-top: 100px;
     }
 }
