@@ -169,6 +169,11 @@ main {
     margin-bottom: 50px;
 }
 
+#timeline h4 {
+    text-align: center;
+    font-size: 200%;
+}
+
 /*Creating the vertical line in the middle of the timeline
 .line {
     position: relative;
@@ -262,20 +267,8 @@ span.circle {
     padding: 30px 30px;
     position: relative;
     border-radius: 6px;
-    height: 300px;
     width: 100%;
     flex-grow: 2;
-}
-
-.hidden-heading {
-    font-size: 300%;
-    margin-bottom: 50px;
-    text-align: left;
-}
-
-#timeline h4 {
-    text-align: center;
-    font-size: 200%;
 }
 
 /* Vertically aligning content containers so they appear side by side */
@@ -506,7 +499,10 @@ legend {
     #timeline {
         display: flex;
         flex-wrap: wrap;
+    }
 
+    #timeline h2 {
+        width: 100%;
     }
 /*Containers take up full width of screen */
     .container {
@@ -538,6 +534,17 @@ legend {
 
     .circle {
         display: none;
+    }
+
+    .hidden-heading {
+        font-size: 300%;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    
+    #timeline h4 {
+        text-align: center;
+        font-size: 200%;
     }
 
     .row {
@@ -619,6 +626,10 @@ legend {
     .container {
     width: 50%;
     height: 300px;
+    }
+
+    .content {
+        height: 300px;
     }
 
     span.circle {
