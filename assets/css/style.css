@@ -610,22 +610,22 @@ legend {
         display: flex;
         align-items: center;
 }
-    .left {
+    /* .left {
         left: -10%;
-    }
+    } */
 
-/* Place the container to the right */
+/* Place the container to the right 
     .right {
         right: -10%;
-    }
+    } */
 
     .hidden-heading {
         display: none;
     } 
    
     .container {
-    width: 50%;
-    height: 300px;
+        width: 50%;
+        height: 300px;
     }
 
     .content {
