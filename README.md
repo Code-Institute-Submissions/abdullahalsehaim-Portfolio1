@@ -18,29 +18,36 @@ My site should be easily accessible and visible on all devices.
 
 **1. User Story 1: The Curious Explorer**
 
-+I am a traveler who has never heard of Trim before.
-+I want to discover what Trim has to offer and learn about its history and culture.
-+The website should provide a captivating overview of Trim's key attractions and historical significance.
+I am a traveler who has never heard of Trim before.
+
+I want to discover what Trim has to offer and learn about its history and culture.
+
+The website should provide a captivating overview of Trim's key attractions and historical significance.
 
 
 **User Story 2: The History Buff**
 
-+I am interested in medieval history and architecture.
-+I want to learn more about Trim Castle and other historical sites in the town.
-+The website should offer a detailed section on Trim's history with informative text and engaging visuals.
+I am interested in medieval history and architecture.
+
+I want to learn more about Trim Castle and other historical sites in the town.
+
+The website should offer a detailed section on Trim's history with informative text and engaging visuals.
 
 
 **User Story 3: The Event Seeker**
 
-+I am planning a trip to Ireland and looking for interesting places to visit.
-+I want to find out about upcoming events and festivals happening in Trim.
-+The website should have a clearly displayed events and festivals in Trim.
+I am planning a trip to Ireland and looking for interesting places to visit.
+
+I want to find out about upcoming events and festivals happening in Trim.
+
+The website should have a clearly displayed events and festivals in Trim.
 
 
 **User Story 4: The Practical Traveler**
 
-+I am planning a visit to Trim and need logistical information.
-+I want to find out how to get to Trim and visitor center details. 
+I am planning a visit to Trim and need logistical information.
+
+I want to find out how to get to Trim and visitor center details. 
 
 ### Strategy
 + I wanted to inform and empower people to visit the town of Trim. Utilize compelling text to showcase Trim's historical significance and present-day charm.esign a user-friendly website with clear menus and information architecture for effortless exploration.
