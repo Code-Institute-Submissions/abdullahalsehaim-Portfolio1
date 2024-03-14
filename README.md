@@ -57,6 +57,7 @@ My site should be easily accessible and visible on all devices.
 
 **2. Timeline:**  A vertical timeline section that displays the origins of Trim in chronological order.
 
+![Screenshot of the timeline section from the website. 4 sections of text, 4 images and 4 circles indicating the chronological order](/assets/images/timeline_md.PNG)
 
 **3. Events:** Three of the largest events that take place to this day within proximity of the structures. 
 
@@ -132,6 +133,8 @@ With regards to fonts used I researched fonts that best compliment nature, from 
 
 #### Timeline
 + A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
+
+![Screenshot of the timeline section from the website. 4 sections of text, 4 images and 4 circles indicating the chronological order](/assets/images/timeline_md.PNG)
 
 #### Image Hover Overlay
 + Implementing this feature so as not to overwhelm the user with too much text. This feature allows the user to view the information about the events only when the mouse is hovering over the image or when the user taps the screen of a smaller device.
