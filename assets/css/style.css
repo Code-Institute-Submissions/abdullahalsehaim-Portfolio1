@@ -203,9 +203,6 @@ main {
     display: block;
 }
 
-.right, .left {
-    left: -10%;
-}
 
 /*Circles containing the years on the timeline
 .container::after {
@@ -530,6 +527,10 @@ legend {
         position: relative;
         margin-top: 30px;
     }
+
+    .right, .left {
+        left: -10%;
+    }
 }
 
 
@@ -556,6 +557,7 @@ legend {
     .nav-toggle-label {
         display: none;
     }
+
 }
 
 /* Media Query for laptops and monitors 1024 px and larger */
@@ -585,5 +587,9 @@ legend {
     .right {
         right: -10%;
     }
+
+    /* .hidden-heading {
+        display: none;
+    } */
 
 }
