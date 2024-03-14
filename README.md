@@ -19,11 +19,28 @@ My aim with this website is to create a modern online presence that grabs the at
 ### Structure
 
 **1. Home page:** An introduction about Trim and some of the oldest historic structures in the town
+
+![Screenshot of the Home segment of the website. Showing white text contrasting a hero image of the yellow steeple.](/assets/images/home_md.PNG)
+
 **2. Timeline:**  A vertical timeline section that displays the origins of Trim in chronological order.
+
+
 3. Events: Three of the largest events that take place to this day within proximity of the structures. 
+
+![Screenshot of events section from the website. 3 images side by side displaying various events that happen in Trim](/assets/images/events_md.PNG)
+
+
 4. Information: A brief guide on how visitors can best experience these structures, links to more information and maps.
+
+![Screenshot of information section, 3 columns displayed side by side with information about how to Visit Trim Castle, the Yellow Steeple and the Priory of St John the Baptist](/assets/images/information_md.PNG)
+
 5. Form: A contact page where web users can suggest changes to the website to more accurately portray the town.
+
+![Screenshot of contact section. A simple contact form where people can input their name, email and a message. Background is a hero image of Trim in the Spring](/assets/images/contact_md.PNG)
+
 6. Map: A display of the town with the three structures highlighted to showcase the proximity.
+
+![Screenshot of the interactive map displayed at the bottom of the webpage. The three key structures mentioned in this website are highlighted](/assets/images/map_md.PNG)
 
 ### Skeleton
 
@@ -34,6 +51,19 @@ This website makes use of beautiful imagery as hero images for the main sections
 
 To show off the beauty of Trim I decided to make us of several hero images, they are displayed below. I needed to use overlay boxes to contrast the text from the background.
 With regards to fonts used I researched fonts that best compliment nature, from the suggestions online I selected JoseFin Sans and Playfair Display SC. For the sections that did not contain hero images as the background. I used light blue and earthy green colors to be consistent with the nature theme.
+
+Home background, a photo of the yellow steeple in the spring time
+![A picture of the yellow steeple as the background for the home section](/assets/images/home_bg.jpg)
+
+Timeline background, a photo from inside the walls of Trim Castle looking out at the scenery
+![A photo taken from the inside of Trim Castle](/assets/images/timeline_bg.jpeg)
+
+Contact background, a photo of Trim town
+![A photo overlooking the town of Trim in the summer time](/assets/images/contact_bg.jpg)
+
+The shades of Blue and Green chosen for the events and information backgrounds
+![A light sky blue](/assets/images/events_blue.PNG)
+![A dark earthy green](/assets/images/information_green.PNG)
 
 
 ### Technologies
@@ -56,7 +86,9 @@ Navigation bar has a black background with a clearer opacity to contrast the her
 Hero image of the Yellow Steeple used as background. 
 
 A brief introduction of Trim is presented on a flat colour overlay with opacity to contrast the background.
+
 ![Screenshot of the Home segment of the website. Showing white text contrasting a hero image of the yellow steeple.](/assets/images/home_md.PNG)
+
 #### Timeline
 A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
 
