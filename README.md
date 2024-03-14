@@ -52,17 +52,22 @@ This website makes use of beautiful imagery as hero images for the main sections
 To show off the beauty of Trim I decided to make us of several hero images, they are displayed below. I needed to use overlay boxes to contrast the text from the background.
 With regards to fonts used I researched fonts that best compliment nature, from the suggestions online I selected JoseFin Sans and Playfair Display SC. For the sections that did not contain hero images as the background. I used light blue and earthy green colors to be consistent with the nature theme.
 
-Home background, a photo of the yellow steeple in the spring time
++ Home background, a photo of the yellow steeple in the spring time
+
 ![A picture of the yellow steeple as the background for the home section](/assets/images/home_bg.jpg)
 
-Timeline background, a photo from inside the walls of Trim Castle looking out at the scenery
++ Timeline background, a photo from inside the walls of Trim Castle looking out at the scenery
+
 ![A photo taken from the inside of Trim Castle](/assets/images/timeline_bg.jpeg)
 
-Contact background, a photo of Trim town
++ Contact background, a photo of Trim town
+
 ![A photo overlooking the town of Trim in the summer time](/assets/images/contact_bg.jpg)
 
-The shades of Blue and Green chosen for the events and information backgrounds
++ The shades of Blue and Green chosen for the events and information backgrounds
+
 ![A light sky blue](/assets/images/events_blue.PNG)
+
 ![A dark earthy green](/assets/images/information_green.PNG)
 
 
@@ -75,33 +80,37 @@ The shades of Blue and Green chosen for the events and information backgrounds
 ### Features
 
 #### Navigation Bar
-Fixed to the top of the page. Heading of Trim is in the left hand corner of navigation, it includes a navigation link to the index.html page.
++ Fixed to the top of the page. Heading of Trim is in the left hand corner of navigation, it includes a navigation link to the index.html page.
 
-Home, Timeline, Events, Visitor Information and Contact all link to those respective areas of this page.
++ Timeline, Events, Visitor Information and Contact all link to those respective areas of this page.
 
-Navigation bar has a black background with a clearer opacity to contrast the hero image backgrounds and the font colour which is white.
++ Navigation bar has a black background with a clearer opacity to contrast the hero image backgrounds and the font colour which is white.
 
 #### Home
 
-Hero image of the Yellow Steeple used as background. 
++ Hero image of the Yellow Steeple used as background. 
 
-A brief introduction of Trim is presented on a flat colour overlay with opacity to contrast the background.
++ A brief introduction of Trim is presented on a flat colour overlay with opacity to contrast the background.
 
 ![Screenshot of the Home segment of the website. Showing white text contrasting a hero image of the yellow steeple.](/assets/images/home_md.PNG)
 
 #### Timeline
-A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
++ A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
 
 #### Image Hover Overlay
-Implementing this feature so as not to overwhelm the user with too much text. This feature allows the user to view the information about the events only when the mouse is hovering over the 
++ Implementing this feature so as not to overwhelm the user with too much text. This feature allows the user to view the information about the events only when the mouse is hovering over the image or when the user taps the screen of a smaller device.
+
+![Screenshot of events section from the website. 3 images side by side displaying various events that happen in Trim](/assets/images/events_md.PNG)
 
 #### Contact
-Basic form element to allow web users/ historians  to contact me and suggest possible changes and additions to the website. 
+
++ Basic form element to allow web users/ historians  to contact me and suggest possible changes and additions to the website. 
 
 
 #### Map
-Footer element that has interactive Google Maps with the three main structures highlighted. Fixed to the bottom of the page. 
++ Footer element that has interactive Google Maps with the three main structures highlighted. Fixed to the bottom of the page. 
 
+![Screenshot of the interactive map displayed at the bottom of the webpage. The three key structures mentioned in this website are highlighted](/assets/images/map_md.PNG)
 
 
 ### Testing
@@ -115,22 +124,32 @@ Bugs
 
 Deployment
 
++ The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu, select the Master Branch
+3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
++The live link can be found here - [https://abdullahalsehaim.github.io/Portfolio1/](https://abdullahalsehaim.github.io/Portfolio1/)
+
 Credits
 
 ### Content
-The code for the timeline was taken from W3Schools.
-The code for the image overlay effect was taken from W3Schools. 
-The tutorial for how to add multiple locations on Google Maps to HTML was taken from Medium.
+
++ The code for the timeline was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_timeline.asp).
+
++ The code for the image overlay effect was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp). 
+
++ The tutorial for how to add multiple locations on Google Maps to HTML was taken from [Medium](https://vibrantwebs.medium.com/google-maps-html-embed-with-multiple-locations-and-custom-markers-free-eab8fbce7f9a).
 
 ### Media
 
 
 ### Acknowledgments
 
-A huge thanks to my mentor, Medale Oluwafemi, for his fantastic guidance.
++ A huge thanks to my mentor, Medale Oluwafemi, for his fantastic guidance.
 
-Inspiration of a nature based hero image contrasting with white text Webflow.
++ Inspiration of a nature based hero image contrasting with white text [Webflow](https://nature-parallax.webflow.io/).
 
-Inspiration of the layout of the timeline from this Bohemian Football Club History website
++ Inspiration of the layout of the timeline from this [Bohemian Football Club History website](https://bohemianfc.webflow.io/)
 
-Inspiration for the structure of the page was taken from Code Institute’s Love Running and Coder’s Coffeehouse projects.
++ Inspiration for the structure of the page was taken from Code Institute’s Love Running and Coder’s Coffeehouse projects.
