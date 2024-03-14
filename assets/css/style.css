@@ -603,6 +603,12 @@ legend {
 
 }
 
+@media screen and (max-width: 1024px) {
+    .circle {
+        display: none;
+    }
+}
+
 /* Media Query for laptops and monitors 1024 px and larger */
 @media screen and (min-width: 1024px) {
     /* CSS Rules for timeline to display containers side by side on larger screens */
