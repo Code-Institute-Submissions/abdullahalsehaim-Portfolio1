@@ -17,7 +17,7 @@ My site should be easily accessible and visible on all devices.
 
 
 ### Strategy
- I wanted to inform and empower people to visit the town of Trim. Utilize compelling text to showcase Trim's historical significance and present-day charm.esign a user-friendly website with clear menus and information architecture for effortless exploration.
++ I wanted to inform and empower people to visit the town of Trim. Utilize compelling text to showcase Trim's historical significance and present-day charm.esign a user-friendly website with clear menus and information architecture for effortless exploration.
 
 ### Scope
 
@@ -32,20 +32,20 @@ My site should be easily accessible and visible on all devices.
 **2. Timeline:**  A vertical timeline section that displays the origins of Trim in chronological order.
 
 
-3. Events: Three of the largest events that take place to this day within proximity of the structures. 
+**3. Events:** Three of the largest events that take place to this day within proximity of the structures. 
 
 ![Screenshot of events section from the website. 3 images side by side displaying various events that happen in Trim](/assets/images/events_md.PNG)
 
 
-4. Information: A brief guide on how visitors can best experience these structures, links to more information and maps.
+**4. Information:** A brief guide on how visitors can best experience these structures, links to more information and maps.
 
 ![Screenshot of information section, 3 columns displayed side by side with information about how to Visit Trim Castle, the Yellow Steeple and the Priory of St John the Baptist](/assets/images/information_md.PNG)
 
-5. Form: A contact page where web users can suggest changes to the website to more accurately portray the town.
+**5. Form:** A contact page where web users can suggest changes to the website to more accurately portray the town.
 
 ![Screenshot of contact section. A simple contact form where people can input their name, email and a message. Background is a hero image of Trim in the Spring](/assets/images/contact_md.PNG)
 
-6. Map: A display of the town with the three structures highlighted to showcase the proximity.
+**6. Map:** A display of the town with the three structures highlighted to showcase the proximity.
 
 ![Screenshot of the interactive map displayed at the bottom of the webpage. The three key structures mentioned in this website are highlighted](/assets/images/map_md.PNG)
 
