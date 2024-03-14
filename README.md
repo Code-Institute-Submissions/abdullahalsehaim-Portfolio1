@@ -63,7 +63,7 @@ A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating 
 #### Image Hover Overlay
 Implementing this feature so as not to overwhelm the user with too much text. This feature allows the user to view the information about the events only when the mouse is hovering over the 
 
-#### Form
+#### Contact
 Basic form element to allow web users/ historians  to contact me and suggest possible changes and additions to the website. 
 
 

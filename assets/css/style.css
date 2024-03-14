@@ -116,6 +116,7 @@ nav ul li {
 }
 
 .flex-container {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -154,6 +155,7 @@ main {
     font-size: 120%;
     width: 75%;
     margin-left: 12.5%;
+    padding-bottom: 50px;
 }
 
 /*Styling timeline page*/
@@ -341,6 +343,7 @@ span.circle {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    width: 90%;
 }
 
 .column:hover .image {
