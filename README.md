@@ -5,16 +5,23 @@ An opportunity appeared when I looked at its current web presence. Existing site
 
 My aim with this website is to create a modern online presence that grabs the attention of web users, present a brief timeline of these particular structures, inform people how they can best visit these sites and promote events that take place throughout the year.
 
-## Table of Contents
 
 ### Demo
+
+
 ### UX
 
++ I wanted to target people researching new tourist destinations around the world. 
+My site should be easily accessible and visible on all devices.
 ### User Stories
 
+
 ### Strategy
+ I wanted to inform and empower people to visit the town of Trim. Utilize compelling text to showcase Trim's historical significance and present-day charm.esign a user-friendly website with clear menus and information architecture for effortless exploration.
 
 ### Scope
+
++ This website serves as your introductory guide to exploring Trim, County Meath. Aiming to showcase the best of what Trim has to offer potential visitors.  Focusing on its rich history, iconic Norman castle and charming medieval core.  The website will also be a navigational tool, providing information on how to best visit the town, and must-see attractions.
 
 ### Structure
 
@@ -44,7 +51,8 @@ My aim with this website is to create a modern online presence that grabs the at
 
 ### Skeleton
 
-This website makes use of beautiful imagery as hero images for the main sections. 
++ This website makes use of beautiful nature imagery as hero images and earthy colors for the main sections. 
+  It is a one page site and flows from top to bottom.
 
 
 ### Surface
@@ -86,6 +94,8 @@ With regards to fonts used I researched fonts that best compliment nature, from 
 
 + Navigation bar has a black background with a clearer opacity to contrast the hero image backgrounds and the font colour which is white.
 
+![Screenshot of Navigation bar](/assets/images/nav_md.PNG)
+
 #### Home
 
 + Hero image of the Yellow Steeple used as background. 
@@ -106,6 +116,8 @@ With regards to fonts used I researched fonts that best compliment nature, from 
 
 + Basic form element to allow web users/ historians  to contact me and suggest possible changes and additions to the website. 
 
+![Screenshot of contact section. A simple contact form where people can input their name, email and a message. Background is a hero image of Trim in the Spring](/assets/images/contact_md.PNG)
+
 
 #### Map
 + Footer element that has interactive Google Maps with the three main structures highlighted. Fixed to the bottom of the page. 
@@ -115,14 +127,23 @@ With regards to fonts used I researched fonts that best compliment nature, from 
 
 ### Testing
 
-Validator Testing
-HTML W3C Validator
-CSS Validator
-Accessibility Lighthouse DevTools (include screenshot)
++Validator Testing
+
+ - HTML W3C Validator
+    
+    HTML W3C Validator returned with no errors
+ 
+ 
+ - CSS Validator
+    
+    HTML W3C Validator returned with no errors
+ 
+
+ - Accessibility Lighthouse DevTools
 
 Bugs
 
-Deployment
+### Deployment
 
 + The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. In the GitHub repository, navigate to the Settings tab
@@ -131,9 +152,10 @@ Deployment
 
 +The live link can be found here - [https://abdullahalsehaim.github.io/Portfolio1/](https://abdullahalsehaim.github.io/Portfolio1/)
 
-Credits
 
-### Content
+### Credits
+
+#### Content
 
 + The code for the timeline was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_timeline.asp).
 
@@ -142,7 +164,7 @@ Credits
 + The tutorial for how to add multiple locations on Google Maps to HTML was taken from [Medium](https://vibrantwebs.medium.com/      google-maps-html-embed-with-multiple-locations-and-custom-markers-free-eab8fbce7f9a).
 
 
-### Media
+#### Media
 
 + The background of the home section was taken from [A trip to Ireland](http://atriptoireland.com/2013/09/25/the-story-of-trims-yellow-steeple/) 
 
@@ -165,7 +187,7 @@ Credits
 + The Yellow Steeple image was taken from [National Library of Ireland](https://catalogue.nli.ie/Record/vtls000053970)
 
 
-### Acknowledgments
+#### Acknowledgments
 
 + A huge thanks to my mentor, Medale Oluwafemi, for his fantastic guidance.
 
