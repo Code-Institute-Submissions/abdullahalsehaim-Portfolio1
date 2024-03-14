@@ -139,9 +139,30 @@ Credits
 
 + The code for the image overlay effect was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp). 
 
-+ The tutorial for how to add multiple locations on Google Maps to HTML was taken from [Medium](https://vibrantwebs.medium.com/google-maps-html-embed-with-multiple-locations-and-custom-markers-free-eab8fbce7f9a).
++ The tutorial for how to add multiple locations on Google Maps to HTML was taken from [Medium](https://vibrantwebs.medium.com/      google-maps-html-embed-with-multiple-locations-and-custom-markers-free-eab8fbce7f9a).
+
 
 ### Media
+
++ The background of the home section was taken from [A trip to Ireland](http://atriptoireland.com/2013/09/25/the-story-of-trims-yellow-steeple/) 
+
++ The background of the timeline section was taken from [McArdle Photo](https://www.mcardlephoto.com/meath/copy-of-newgrange-stone-age-passage-tomb-donore-co-meath-1)
+
++ The background of the contact section was taken from [Expedia](https://www.expedia.ie/Trim.dx6049207?gallery-dialog=gallery-open)
+
++ The image of the Puca Festival was taken from [Discover Boyne Valley](https://www.discoverboynevalley.ie/puca-festival-returns-boyne-valley-2022)
+
++ The image of the Haymaking Festival was taken from [Meath Chronicle](https://www.meathchronicle.ie/2022/06/16/summer-days-are-here-as-trim-gets-set-to-make-hay/)
+
++ The image of the Royal Meath Show was taken from [Offaly Independent](https://www.offalyindependent.ie/2023/08/31/scene-set-for-81st-royal-meath-agricultural-show-in-trim/)
+
++ The map of Meath image was taken from [Ireland XO](https://www.irelandxo.com/ireland-xo/history-and-genealogy/timeline/county-meath-1830s)
+
++ The Trim Castle image was taken from [Meath History Hub](https://meathhistoryhub.ie/trim/)
+
++ The Priory of St Johns image was taken from [Alamy](https://www.alamy.com/stock-photo/st-johns-priory.html?sortBy=relevant)
+
++ The Yellow Steeple image was taken from [National Library of Ireland](https://catalogue.nli.ie/Record/vtls000053970)
 
 
 ### Acknowledgments
