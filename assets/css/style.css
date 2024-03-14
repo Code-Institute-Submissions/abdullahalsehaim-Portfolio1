@@ -192,8 +192,6 @@ main {
     padding: 40px 40px;
     position: relative;
     background: rgba(0, 0, 0, 0.55);
-    width: 50%;
-    height: 300px;
 }
 
 /* Fit img elements within container */
@@ -588,8 +586,12 @@ legend {
         right: -10%;
     }
 
-    /* .hidden-heading {
+    .hidden-heading {
         display: none;
-    } */
-
+    } 
+   
+    .container {
+    width: 50%;
+    height: 300px;
+    }
 }
