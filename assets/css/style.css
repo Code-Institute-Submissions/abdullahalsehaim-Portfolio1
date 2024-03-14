@@ -205,7 +205,7 @@ main {
 /* Fit img elements within container */
 .container img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 90%;
     display: block;
 }
 
@@ -265,7 +265,7 @@ span.circle {
 } */
 
 /* Styling for the content on the timeline */
-.content {
+.content h3, .content p{
     padding: 30px 30px;
     position: relative;
     border-radius: 6px;
@@ -506,7 +506,7 @@ legend {
 }
 
 /* Media Query to make timeline responsive on screens less than 768px wide */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     #timeline {
         display: flex;
@@ -603,11 +603,11 @@ legend {
 
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
     .circle {
         display: none;
     }
-}
+} */
 
 /* Media Query for laptops and monitors 1024 px and larger */
 @media screen and (min-width: 1024px) {
@@ -628,14 +628,16 @@ legend {
         display: flex;
         align-items: center;
 }
-    /* .left {
-        left: -10%;
-    } */
+    .left {
+        left: 0%;
+        margin-right: 10%;
+    }
 
-/* Place the container to the right 
+    /* Place the container to the right */
     .right {
-        right: -10%;
-    } */
+        right: 0%;
+        margin-left: 10%;
+    } 
 
     .hidden-heading {
         display: none;
@@ -646,8 +648,26 @@ legend {
         height: 300px;
     }
 
+    .container .img {
+        height: 300px;
+    }
+
+    /*.container .left {
+        margin-right: 10%;
+    }*/
+
+    .container .right {
+        margin-left: 10%;
+    }
+
     .content {
         height: 300px;
+    }
+
+    .icon {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
     }
 
     span.circle {

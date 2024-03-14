@@ -18,8 +18,8 @@ My aim with this website is to create a modern online presence that grabs the at
 
 ### Structure
 
-1. Home page: An introduction about Trim and some of the oldest historic structures in the town
-2. Timeline:  A vertical timeline section that displays the origins of Trim in chronological order.
+**1. Home page:** An introduction about Trim and some of the oldest historic structures in the town
+**2. Timeline:**  A vertical timeline section that displays the origins of Trim in chronological order.
 3. Events: Three of the largest events that take place to this day within proximity of the structures. 
 4. Information: A brief guide on how visitors can best experience these structures, links to more information and maps.
 5. Form: A contact page where web users can suggest changes to the website to more accurately portray the town.
@@ -56,7 +56,7 @@ Navigation bar has a black background with a clearer opacity to contrast the her
 Hero image of the Yellow Steeple used as background. 
 
 A brief introduction of Trim is presented on a flat colour overlay with opacity to contrast the background.
-	
+![Screenshot of the Home segment of the website. Showing white text contrasting a hero image of the yellow steeple.](/assets/images/home_md.PNG)
 #### Timeline
 A timeline in chronological order, ranging from 1000 AD to 1450 AD. Alternating between text on the right and photos on the left for each row. Including a vertical line in between the image and text inline to show the year. Background image is a view from within Trim Castle.
 
