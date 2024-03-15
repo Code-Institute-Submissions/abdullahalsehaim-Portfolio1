@@ -6,9 +6,6 @@ An opportunity appeared when I looked at its current web presence. Existing site
 My aim with this website is to create a modern online presence that grabs the attention of web users, present a brief timeline of these particular structures, inform people how they can best visit these sites and promote events that take place throughout the year.
 
 
-### Demo
-
-
 ### UX
 
 + I wanted to target people researching new tourist destinations around the world. 
@@ -182,8 +179,6 @@ With regards to fonts used I researched fonts that best compliment nature, from 
 
     ![Screenshot of Lighthouse DevTools results](/assets/images/lighthouse_test.PNG)
 
-### Bugs
-
 ### Deployment
 
 + The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -191,7 +186,7 @@ With regards to fonts used I researched fonts that best compliment nature, from 
 2. From the source section drop-down menu, select the Master Branch
 3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-+The live link can be found here - [https://abdullahalsehaim.github.io/Portfolio1/](https://abdullahalsehaim.github.io/Portfolio1/)
++ The live link can be found here - [https://abdullahalsehaim.github.io/Portfolio1/](https://abdullahalsehaim.github.io/Portfolio1/)
 
 
 ### Credits
