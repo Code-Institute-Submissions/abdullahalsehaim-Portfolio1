@@ -177,6 +177,10 @@ With regards to fonts used I researched fonts that best compliment nature, from 
 
  - Accessibility Lighthouse DevTools
 
+    Accessibility ranked 91 which is the main focus of this assignment. 
+    Performance and best practices must be improved
+
+    ![Screenshot of Lighthouse DevTools results](/assets/images/lighthouse_test.PNG)
 
 ### Bugs
 

@@ -9,13 +9,6 @@
     box-sizing: border-box;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    /* outline: 1px solid red; */
-}
 /* General Styles */
 body {
     min-height: 100vh;
@@ -30,13 +23,6 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #ffffff;
 }
-
-.josefin-sans {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
 
 /* Header */
 
@@ -194,7 +180,6 @@ main {
 }
 
 
-
 /* Styling for the content on the timeline */
 .content h3, .content p{
     padding: 30px 30px;
@@ -283,6 +268,8 @@ main {
     width: 100%;
     border: none;
 }
+
+/* Styling for information section */
 
 #information {
     background: #4F7942;
@@ -405,13 +392,6 @@ legend {
     padding: 15px 32px;
 }
 
-/* Media Query for phones and screens 576px and up */
-@media screen and (min-width: 576px) {
-    #events {
-        column-count: 1;
-    }
-}
-
 /* Media Query to make timeline responsive on screens less than 768px wide */
 @media screen and (max-width: 1024px) {
 
@@ -423,7 +403,8 @@ legend {
     #timeline h2 {
         width: 100%;
     }
-/*Containers take up full width of screen */
+
+    /*Containers take up full width of screen */
     .container {
         width: 100%;
         padding-left: 70px;
@@ -524,7 +505,7 @@ legend {
         display: flex;
         align-items: flex-start;
 }
-
+/* Aligning containers in the timeline */
     .meath_timeline .container,
     .castle_timeline .container,
     .priory_timeline .container,
@@ -567,12 +548,6 @@ legend {
 
     .content {
         height: 300px;
-    }
-
-    .icon {
-        margin-left: auto;
-        margin-right: auto;
-        width: 95%;
     }
 
     span.circle {
